@@ -10,11 +10,15 @@ public class Petle {
 		for(i = 0; i< 1000; i++) {
 			
 			System.out.println("Nr# " + i);
+			
+			
 		}
+		
 		/* ----petla nieskończona------
 		 for (;;) {
 			System.out.println("cialo petli");
 		}
+		
 		*/
 		System.out.println(i);
 		System.out.println("NowaPetla");
@@ -23,13 +27,25 @@ public class Petle {
 		for(; j>=10; j--) {
 			System.out.println(j);
 		}
+<<<<<<< HEAD
 		System.out.println("Petla zagniezdzona");
 		//////Zagnieżdzona pętla
+=======
+		System.out.println("NowaPetla");
+		int l3=0;
+		int l4=0;
+>>>>>>> parent of 4bd26cf... kolejny komint
 		for(int l = 0; l<10; l++) {
 			System.out.print(l +" - ");
 			for(int l1 = 0; l1<10; l1++) {
 			////2	nowy komentarz 323223
+<<<<<<< HEAD
 				System.out.print(l1 +",");
+=======
+				System.out.println("NowaPetla"+ l3++);
+
+			/// komm
+>>>>>>> parent of 4bd26cf... kolejny komint
 			}
             System.out.println("");
 		}
@@ -43,5 +59,6 @@ public class Petle {
 		for(int ii : ints) {
 			System.out.println(ii);
 		}
+	
 	}
 }
