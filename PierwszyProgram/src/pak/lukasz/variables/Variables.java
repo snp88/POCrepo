@@ -39,6 +39,7 @@ public class Variables {
 	var z3 = "napis"; // zmienna typu string
 	var z4 = 'w'; // zmienna typu char 
 	
+	System.out.println(zmienna+z2+z3+z4);
 	
 	
 	

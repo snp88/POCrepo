@@ -28,7 +28,7 @@ public class Table {
 		System.out.println(tab2[2][2]);
 		
 		int[][][] tab3 = new int [][][] {{{1, 2}, {3, 4}}, {{5, 6},{7, 8}}};
-		System.out.println( );
+		System.out.println(tab3[0][0][0]);
 		
 		int [] tab4 = {2, 4, 6};//deklaracja odrazu z wartosciami tabilcy
 		System.out.println(tab4[0]);
