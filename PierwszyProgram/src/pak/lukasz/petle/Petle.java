@@ -5,7 +5,7 @@ public class Petle {
 
 	public static void main(String[] args) {
 		/// petla for licznik , warunek wyjscia, zwiekszanie licznika
-		// jezeli licznik zadeklarowany jest w deklaracji petli nie mozna go uzyc poza pêtl¹
+		// jezeli licznik zadeklarowany jest w deklaracji petli nie mozna go uzyc poza pÄ™tlÄ…
 		int i;
 		for(i = 0; i< 1000; i++) {
 			
@@ -14,7 +14,7 @@ public class Petle {
 			
 		}
 		
-		/* ----petla nieskoñczona------
+		/* ----petla nieskoÅ„czona------
 		 for (;;) {
 			System.out.println("cialo petli");
 		}
@@ -30,7 +30,7 @@ public class Petle {
 		System.out.println("NowaPetla");
 		for(int l = 0; l<10; l++) {
 			for(int l1 = 10; l1<10; l1++) {
-				
+			////2	
 			}
 		}
 	
