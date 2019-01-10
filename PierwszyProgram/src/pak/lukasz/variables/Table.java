@@ -27,7 +27,17 @@ public class Table {
 		System.out.println(tab2[1][0]);
 		System.out.println(tab2[2][2]);
 		
-		 
+		int[][][] tab3 = new int [][][] {{{1, 2}, {3, 4}}, {{5, 6},{7, 8}}};
+		System.out.println( );
+		
+		int [] tab4 = {2, 4, 6};//deklaracja odrazu z wartosciami tabilcy
+		System.out.println(tab4[0]);
+		tab4[0]= tab4[0] + 8; // dodawanie do elementu 1
+		tab4[1] = tab4[1] * 2; // mno¿enie elementu 2
+		System.out.println(tab4[0]);
+		System.out.println(tab4[1]);
+		System.out.println(tab4[0]+ tab4[1]); // dzialanie odrazu w funkcji print
+		
 		
 		
 		
