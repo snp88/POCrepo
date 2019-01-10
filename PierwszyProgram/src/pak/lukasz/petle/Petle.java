@@ -24,15 +24,24 @@ public class Petle {
 			System.out.println(j);
 		}
 		System.out.println("Petla zagniezdzona");
-		int l3=0;
-		int l4=0;
 		//////Zagnieżdzona pętla
 		for(int l = 0; l<10; l++) {
-			System.out.println("Pierwszapetla"+ l4++);
+			System.out.print(l +" - ");
 			for(int l1 = 0; l1<10; l1++) {
 			////2	nowy komentarz 323223
-				System.out.println("NowaPetla"+ l3++);
+				System.out.print(l1 +",");
 			}
+            System.out.println("");
+		}
+		/// Petla for Each wstep
+        int[] ints = {4,3,65,34,23,2,15};
+		for(int ii = 0; ii < ints.length; ii++) {
+            System.out.println(ints[ii]);
+
+        }
+//--- FOR EACH
+		for(int ii : ints) {
+			System.out.println(ii);
 		}
 	}
 }
