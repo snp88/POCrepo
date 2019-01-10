@@ -28,11 +28,15 @@ public class Petle {
 			System.out.println(j);
 		}
 		System.out.println("NowaPetla");
+		int l3=0;
+		int l4=0;
 		for(int l = 0; l<10; l++) {
+			System.out.println("Pierwszapetla"+ l4++);
 			for(int l1 = 0; l1<10; l1++) {
 			////2	nowy komentarz 323223
-				System.out.println("NowaPetla");
+				System.out.println("NowaPetla"+ l3++);
 
+			/// komm
 			}
 		}
 	
