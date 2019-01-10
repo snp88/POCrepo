@@ -30,7 +30,7 @@ public class Petle {
 		System.out.println("NowaPetla");
 		for(int l = 0; l<10; l++) {
 			for(int l1 = 10; l1<10; l1++) {
-			////2	
+			////2	nowy komentarz
 			}
 		}
 	
