@@ -79,15 +79,19 @@ public class Petle {
               //  continue Label; //
 
             }
-////////----------ZADANIE
-    int[] zad1 = {3,5,6,1,2,3,4};
-           System.out.println(Arrays.toString(zad1));
-            for (int licz: zad1)
-                  {
-                      System.out.print(licz + " ");
-            }
 
 
         }
+////////----------ZADANIE
+        int[] zad1 = {3,5,6,1,2,3,4};
+        System.out.println(Arrays.toString(zad1));
+        int suma=0;
+        for (int licz: zad1)
+        {
+            System.out.print(licz + " ");
+            suma=suma +licz;
+        }
+        System.out.println("");
+        System.out.println(suma);
     }
 }
