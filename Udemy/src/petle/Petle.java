@@ -1,7 +1,5 @@
 package petle;
 
-import java.awt.*;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Petle {
@@ -76,7 +74,7 @@ public class Petle {
            // break Label;  // Natychmiast przerywa wykonywanie petli
             for (int l = 0; l < 100; l++) {
                 System.out.println("l= "+ l);
-              //  continue Label; //
+              continue Label; //
 
             }
 
