@@ -91,5 +91,6 @@ public class Petle {
         }
         System.out.println("");
         System.out.println(suma);
+        //nowy komentarz
     }
 }
