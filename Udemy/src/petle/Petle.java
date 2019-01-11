@@ -48,6 +48,11 @@ public class Petle {
         for(int ii : ints) {
             System.out.println(ii);
         }
+//---- Petle WHILE-------
+
+
+
+
 
     }
 }
