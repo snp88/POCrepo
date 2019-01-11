@@ -1,5 +1,9 @@
 package petle;
 
+import java.awt.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Petle {
 
     public static void main(String[] args) {
@@ -49,10 +53,41 @@ public class Petle {
             System.out.println(ii);
         }
 //---- Petle WHILE-------
+        /* Nieskończona petla while
+        while(true) {
+            System.out.println(true);}
+        */
+        int wi=200;
+        while(wi > -100){
+            System.out.println(wi);
+            wi--;
+        }
+/////----------- do WHILE-------
+        ///---- Petla do while wykona sie przynajmniej raz
+        do{
+            System.out.println(false);
+        }
+        while(false);
+
+//////-----------LABLES
+        Label:
+        for (int k = 0; k < 10; k++) {
+            System.out.println("k= "+ k);
+           // break Label;  // Natychmiast przerywa wykonywanie petli
+            for (int l = 0; l < 100; l++) {
+                System.out.println("l= "+ l);
+              //  continue Label; //
+
+            }
+////////----------ZADANIE
+    int[] zad1 = {3,5,6,1,2,3,4};
+           System.out.println(Arrays.toString(zad1));
+            for (int licz: zad1)
+                  {
+                      System.out.print(licz + " ");
+            }
 
 
-
-
-
+        }
     }
 }
