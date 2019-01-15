@@ -3,7 +3,7 @@ package petle;
 import java.util.Arrays;
 
 public class Petle {
-
+/// komentarz w nowej galezi
     public static void main(String[] args) {
         /// petla for licznik , warunek wyjscia, zwiekszanie licznika
         // jezeli licznik zadeklarowany jest w deklaracji petli nie mozna go uzyc poza pętlą
