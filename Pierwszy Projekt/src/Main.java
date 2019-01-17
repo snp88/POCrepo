@@ -18,32 +18,28 @@ public class Main {
             wyb = odczyt.nextLong();
             System.out.println("Wprowadzona Liczba");
             System.out.println(wyb);
-
+            licznik++;
             if (wyb >= 0 && wyb < 3) {
                 System.out.println("słabiutko");
             }
-            if (wyb >= 3 && wyb < 6) {
+            else if (wyb >= 3 && wyb < 6) {
                 System.out.println("Myslałem ze bedzie lepiej");
             }
-
-            if (wyb >= 6 && wyb < 8) {
+            else if (wyb >= 6 && wyb < 8) {
                 System.out.println("Tak jest bejbe :D");
             }
-            if (wyb >= 8 && wyb < 9) {
+            else if (wyb >= 8 && wyb < 9) {
                 System.out.println("To rozumiem :*");
             }
-            if (wyb >= 9 && wyb <= 10) {
+            else if (wyb >= 9 && wyb <= 10) {
                 System.out.println("Ja ciebie też");
             }
-            licznik++;
-            if (wyb < 1 || wyb > 10) {
+            else if (wyb < 1 || wyb > 10) {
                 System.out.println("liczba poza zakresem");
                 System.out.println("spróbuj jeszcze raz");
                 licznik = 0;
             }
         }
         while (licznik < 10);
-
-
     }
 }
