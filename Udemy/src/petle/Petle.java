@@ -92,6 +92,13 @@ public class Petle {
         }
         System.out.println("");
         System.out.println(suma);
-        //nowy komentarz
+        //warunek bloean
+        boolean b1 = true;
+        do {
+            System.out.println("test");
+        }while (b1);
+
+
+
     }
 }

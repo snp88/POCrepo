@@ -16,21 +16,21 @@ public class Main {
 
             System.out.println("Wprowadz Liczbe od 1 do 10");
             System.out.println("|||||||||||||||||||");
-            int sucess = 0;
+            boolean sucess = true;
 
             do {
                 try {
                     wyb = odczyt.nextLong();
                     //System.out.println("Wprowadzona Liczba");
                     //System.out.println(wyb);
-                    sucess = 1;
+                    sucess = false;
                 } catch (InputMismatchException e) {
                     System.out.println("to nie jest liczba");
                     System.out.println("wpisz liczbe jeszcze raz");
                     odczyt.next( ); //zapobiega nieskonczonej petli po zlapaniu erroru
                 }
 
-            } while (sucess != 1);
+            } while (sucess);//// petla wykonuje sie dopoki success == true
 
             licznik++;
             System.out.println("<------------->");
