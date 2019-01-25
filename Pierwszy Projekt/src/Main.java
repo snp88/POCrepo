@@ -36,11 +36,11 @@ public class Main {
             System.out.println("<------------->");
             if (wyb >= 0 && wyb < 3) {
                 System.out.println("słabiutko");
-                System.out.println("możes próbujesz jeszcze raz");
+                System.out.println("może próbujesz jeszcze raz");
                 licznik =0;
             } else if (wyb >= 3 && wyb < 6) {
                 System.out.println("Myslałem ze bedzie lepiej");
-                System.out.println("możes próbujesz jeszcze raz");
+                System.out.println("może próbujesz jeszcze raz");
                 licznik =0;
             } else if (wyb >= 6 && wyb < 8) {
                 System.out.println("Tak jest bejbe :D");
