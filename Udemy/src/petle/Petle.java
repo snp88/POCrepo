@@ -9,7 +9,7 @@ public class Petle {
         /// petla for licznik , warunek wyjscia, zwiekszanie licznika
         // jezeli licznik zadeklarowany jest w deklaracji petli nie mozna go uzyc poza pętlą
         int i;
-        for(i = 0; i< 1000; i++) {
+        for(i = 0; i< 10; i++) {
 
             System.out.println("Nr# " + i);
         }
@@ -26,9 +26,9 @@ public class Petle {
             System.out.println(j);
         }
         //////Zagnieżdzona pętla
-        System.out.println("NowaPetla");
+        System.out.println("zagniez petla");
         int l3=0;
-        int l4=0;
+       // int l4=0;
         for(int l = 0; l<10; l++) {
             System.out.print(l +" - ");
             for(int l1 = 0; l1<10; l1++) {
@@ -39,7 +39,7 @@ public class Petle {
 
                 /// komm
             }
-            System.out.println("");
+            System.out.println();
         }
         /// Petla for Each wstep
         int[] ints = {4,3,65,34,23,2,15};
@@ -90,12 +90,17 @@ public class Petle {
             System.out.print(licz + " ");
             suma=suma +licz;
         }
-        System.out.println("");
+        System.out.println();
         System.out.println(suma);
         //warunek bloean
         boolean b1 = true;
+        int gh=0;
         do {
             System.out.println("test");
+            gh++;
+            if (gh==10){
+                b1=false;
+            }
         }while (b1);
 
 
