@@ -8,7 +8,7 @@ public class metody {
         sayhi();
         hi("karol");
         hi("jacek", "dupa");
-    hi2("john","michal","krzysiek");
+        hi2("john", "michal", "krzysiek");
 
         ////------- Koniec Main
     }
@@ -34,9 +34,9 @@ public class metody {
     private static void hi2(String... names) {
         String result = "";
         for (String s : names) {
-            result =result + s + ", ";
+            result = result + s + ", ";
         }
-        System.out.println("HI "+ result);
+        System.out.println("HI " + result);
     }
 
 }
