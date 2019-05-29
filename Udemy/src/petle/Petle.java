@@ -3,13 +3,13 @@ package petle;
 import java.util.Arrays;
 
 public class Petle {
-/// komentarz w nowej galez
+    /// komentarz w nowej galez
     // komentarz z galezi master
     public static void main(String[] args) {
         /// petla for licznik , warunek wyjscia, zwiekszanie licznika
         // jezeli licznik zadeklarowany jest w deklaracji petli nie mozna go uzyc poza pętlą
         int i;
-        for(i = 0; i< 10; i++) {
+        for (i = 0; i < 10; i++) {
 
             System.out.println("Nr# " + i);
         }
@@ -22,33 +22,33 @@ public class Petle {
         System.out.println("NowaPetla");
         // inny zapis petli for
         int j = 20;
-        for(; j>=10; j--) {
+        for (; j >= 10; j--) {
             System.out.println(j);
         }
         //////Zagnieżdzona pętla
         System.out.println("zagniez petla");
-        int l3=0;
-       // int l4=0;
-        for(int l = 0; l<10; l++) {
-            System.out.print(l +" - ");
-            for(int l1 = 0; l1<10; l1++) {
+        int l3 = 0;
+        // int l4=0;
+        for (int l = 0; l < 10; l++) {
+            System.out.print(l + " - ");
+            for (int l1 = 0; l1 < 10; l1++) {
                 ////2	nowy komentarz 323223
 
-                System.out.print(l1 +",");
-                System.out.println("NowaPetla"+ l3++);
+                System.out.print(l1 + ",");
+                System.out.println("NowaPetla" + l3++);
 
                 /// komm
             }
             System.out.println();
         }
         /// Petla for Each wstep
-        int[] ints = {4,3,65,34,23,2,15};
-        for(int ii = 0; ii < ints.length; ii++) {
+        int[] ints = {4, 3, 65, 34, 23, 2, 15};
+        for (int ii = 0; ii < ints.length; ii++) {
             System.out.println(ints[ii]);
 
         }
 //--- FOR EACH
-        for(int ii : ints) {
+        for (int ii : ints) {
             System.out.println(ii);
         }
 //---- Petle WHILE-------
@@ -56,53 +56,51 @@ public class Petle {
         while(true) {
             System.out.println(true);}
         */
-        int wi=200;
-        while(wi > -100){
+        int wi = 200;
+        while (wi > -100) {
             System.out.println(wi);
             wi--;
         }
 /////----------- do WHILE-------
         ///---- Petla do while wykona sie przynajmniej raz
-        do{
+        do {
             System.out.println(false);
         }
-        while(false);
+        while (false);
 
 //////-----------LABLES
         Label:
         for (int k = 0; k < 10; k++) {
-            System.out.println("k= "+ k);
-           // break Label;  // Natychmiast przerywa wykonywanie petli
+            System.out.println("k= " + k);
+            // break Label;  // Natychmiast przerywa wykonywanie petli
             for (int l = 0; l < 100; l++) {
-                System.out.println("l= "+ l);
-              continue Label; //
+                System.out.println("l= " + l);
+                continue Label; //
 
             }
 
 
         }
 ////////----------ZADANIE
-        int[] zad1 = {3,5,6,1,2,3,4};
+        int[] zad1 = {3, 5, 6, 1, 2, 3, 4};
         System.out.println(Arrays.toString(zad1));
-        int suma=0;
-        for (int licz: zad1)
-        {
+        int suma = 0;
+        for (int licz : zad1) {
             System.out.print(licz + " ");
-            suma=suma +licz;
+            suma = suma + licz;
         }
         System.out.println();
         System.out.println(suma);
         //warunek bloean
         boolean b1 = true;
-        int gh=0;
+        int gh = 0;
         do {
             System.out.println("test");
             gh++;
-            if (gh==10){
-                b1=false;
+            if (gh == 10) {
+                b1 = false;
             }
-        }while (b1);
-
+        } while (b1);
 
 
     }
